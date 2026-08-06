@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="NiELSrZ3JbnQxqfg3aSD">
+    <mxGraphModel dx="774" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="start" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Luas= pi X (jari jari)^2" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="selesai" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="399.5" y="307" />
+            </Array>
+            <mxPoint x="399.5" y="280" as="sourcePoint" />
+            <mxPoint x="399.5" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Input jari jari" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Input pi" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="399.5" y="417" />
+            </Array>
+            <mxPoint x="399.5" y="390" as="sourcePoint" />
+            <mxPoint x="399.5" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="399.5" y="527" />
+            </Array>
+            <mxPoint x="399.5" y="500" as="sourcePoint" />
+            <mxPoint x="399.5" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-34" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="399.5" y="637" />
+            </Array>
+            <mxPoint x="399.5" y="610" as="sourcePoint" />
+            <mxPoint x="399.5" y="667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="399.5" y="747" />
+            </Array>
+            <mxPoint x="399.5" y="720" as="sourcePoint" />
+            <mxPoint x="399.5" y="777" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdFBwdSQGnXTxutYh6M-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="input luas" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="675" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
