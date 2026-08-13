@@ -1,0 +1,14 @@
+import math
+a = float(input("sisi 1? "))
+b = float(input("sisi 2? "))
+c = float(input("sisi 3? "))
+if( a == b == c and a < b+c and b < a+c and c < b+a):
+    print("Equilateral")
+elif(a**2 == b**2 + c**2 or b**2 == a**2 + c**2 or c**2 == b**2 + a**2 and a < b+c and b < a+c and c < b+a):
+    print("right-angled")
+elif(a == b or b == c or a == c and a < b+c and b < a+c and c < b+a):
+    print("Isosceles")
+elif(a != b != c and a < b+c and b < a+c and c < b+a):
+    print("scalene")
+else: 
+    print("not a triangle")
