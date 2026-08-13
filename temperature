@@ -1,0 +1,26 @@
+n = float(input("number? "))
+unit = input("which temperature unit?(celcius, fahrenheit, kelvin) ")
+if(unit == "celcius"):
+    convt = input("convert to?(fahrenheit or kelvin) ")
+    if(convt == "fahrenheit"):
+        convert = 32 + (9/5)*(n)
+        print(convert)
+    else:
+        convert = 273 + n
+        print(convert)
+elif(unit == "fahrenheit"):
+    convt = input("convert to?(celcius or kelvin) ")
+    if(convt == "celcius"):
+        convert = (n-32)*(5/9)
+        print(convert)
+    else:
+        convert = (n-32)*(5/9) + 273
+        print(convert)
+else: 
+    convt = input("convert to?(celcius or fahrenheit) ")
+    if(convt == "celcius"):
+        convert = n - 273
+        print(convert)
+    else: 
+        convert = (n - 273)*(9/5) + 32
+        print(convert)
