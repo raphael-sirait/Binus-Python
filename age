@@ -1,0 +1,23 @@
+a = int(input("age? "))
+if(0 <= a and a <= 1): 
+    print("baby")
+elif(2 <= a and a <= 3): 
+    print("toddler")
+elif(4 <= a and a <= 5):
+    print("preschooler")
+elif(6 <= a and a <= 12):
+    print("child")
+elif(13 <= a and a <= 17):
+    print("teenager")
+elif(18 <= a and a <= 21):
+    print("young adult")
+elif(22 <= a and a <= 30):
+    print("pre-adult")
+elif(31 <= a and a <= 50):
+    print("adult")
+elif(51 <= a and a <= 70):
+    print("pre-elderly")
+elif(71 <= a):
+    print("elderly")
+else:
+    print("no")
