@@ -1,0 +1,18 @@
+n = int(input("angka? "))
+if (n % 2 == 0):
+    print("even")
+else: 
+    print("odd")
+m = input("lagi?(y/n) ")
+while(True):
+    if(m == "y"):
+        n = int(input("angka? "))
+        if (n % 2 == 0):
+            print("even")
+        else:
+            print("odd")
+        m = input("lagi?(y/n) ")
+        continue
+    else:
+        print("...")
+        break
