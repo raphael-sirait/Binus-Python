@@ -1,53 +1,53 @@
 def nama():
-    input("nama? ")
+    print("Raphael Eleeyah Sirait ")
 nama()
 def kota():
-    input("kota? ")
+    print("Jakarta ")
 kota()
-def add(value1, value2):
+def add(value1: float, value2: float):
     result = value1 + value2
     return result
-def sub(value1, value2):
+def sub(value1: float, value2: float):
     result = value1 - value2
     return result
-def mul(value1, value2):
+def mul(value1: float, value2: float):
     result = value1*value2
     return result
-def div(value1, value2):
+def div(value1: float, value2: float):
     result = value1 / value2
     return result
-def mod(value1, value2):
+def mod(value1: float, value2: float):
     result = value1 % value2
     return result
 q = input("mau ngapain? +|-|*|/|%|gak lah| ")
 while(True):
     if (q == "+"):
-        v1 = int(input("angka1? "))
-        v2 = int(input("angka2? "))
+        v1 = float(input("angka1? "))
+        v2 = float(input("angka2? "))
         hasil = add(v1,v2)
         print(hasil)
         q = input("mau ngapain? +|-|*|/|%|gak lah| ")
     elif (q == "-"):
-        v1 = int(input("angka1? "))
-        v2 = int(input("angka2? "))
+        v1 = float(input("angka1? "))
+        v2 = float(input("angka2? "))
         hasil = sub(v1,v2)
         print(hasil)
         q = input("mau ngapain? +|-|*|/|%|gak lah| ")
     elif (q == "*"):
-        v1 = int(input("angka1? "))
-        v2 = int(input("angka2? "))
+        v1 = float(input("angka1? "))
+        v2 = float(input("angka2? "))
         hasil = mul(v1,v2)
         print(hasil)
         q = input("mau ngapain? +|-|*|/|%|gak lah| ")
     elif (q == "/"):
-        v1 = int(input("angka1? "))
-        v2 = int(input("angka2? "))
+        v1 = float(input("angka1? "))
+        v2 = float(input("angka2? "))
         hasil = div(v1,v2)
         print(hasil)
         q = input("mau ngapain? +|-|*|/|%|gak lah| ")
     elif(q == "%"):
-        v1 = int(input("angka1? "))
-        v2 = int(input("angka2? "))
+        v1 = float(input("angka1? "))
+        v2 = float(input("angka2? "))
         hasil = mod(v1,v2)
         print(hasil)
         q = input("mau ngapain? +|-|*|/|%|gak lah| ")
